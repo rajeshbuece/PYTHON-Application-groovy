@@ -1,12 +1,10 @@
-# app.py - A simple Python application
 from flask import Flask
-
 app = Flask(__name__)
 
 @app.route('/')
-def home():
-    return "Hello, this is a Python CI/CD pipeline demo!"
+def hello_world():
+    return 'Hello, CI/CD World!'
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(debug=True, host='0.0.0.0', port=5000)
 
