@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/rajeshbuece/flask-app.git' // Use your repo URL
+                git 'https://github.com/rajeshbuece/PYTHON-Application-groovy.git' // Use your repo URL
             }
         }
 
